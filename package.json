@@ -1,0 +1,25 @@
+{
+  "name": "turistea-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @google-cloud/functions-framework --target=fastifyFunction"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "Jean Reynoso",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/cors": "^8.1.1",
+    "@google-cloud/debug-agent": "^7.0.0",
+    "@google-cloud/functions-framework": "^3.1.0",
+    "fastify": "^4.9.2",
+    "promise-mysql": "^5.0.0"
+  },
+  "devDependencies": {
+    "@google-cloud/storage": "^6.0.0"
+  }
+}
